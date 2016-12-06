@@ -1,0 +1,15 @@
+-As a pet owner, I want to sign my pet up for an operation/check-up with a specialist
+
+-As a pet owner, I want to be able to view my appointment
+
+-As a pet owner, I want to be able to change my appointment time
+
+-As a pet owner, I want to be able to cancel my appointment
+
+-As a pet owner, I want to be able to inform them of deceased pets or a change in my pet's health
+
+-As a veterinarian, I want to be able to view my schedule and look at details for any individual appointment (contact info of pet owner and medical history of pet)
+
+-As a veterinarian, I want to be able to change my schedule
+
+-As a veterinarian, I want to be able to change appointment details and/or change specialists

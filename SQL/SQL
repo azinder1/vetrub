@@ -1,0 +1,11 @@
+DB SQL
+-- INSERT INTO `pets` (`id`,`animal`,`owner`,`name`,`age`,`id_owners`) VALUES
+-- ('','','','','','');
+-- INSERT INTO `vets` (`id`,`name`,`specialty`) VALUES
+-- ('','','');
+-- INSERT INTO `owners` (`id`,`name`,`phone`,`credit card`) VALUES
+-- ('','','','');
+-- INSERT INTO `appointments` (`id`,`time`,`type`,`id_vets`,`id_pets`) VALUES
+-- ('','','','','');
+-- INSERT INTO `medical history` (`id`,`description`,`date`,`medication`,`id_pets`) VALUES
+-- ('','','','','');
