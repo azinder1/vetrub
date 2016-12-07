@@ -1,0 +1,20 @@
+<h1><%= @pet.pet_name() %></h1>
+<%  if @pet.owners().any?() %>
+<h3>Here are the owner of this pet</h3>
+
+  <ul>
+    <% @pet.owners().each() do |owner| %>
+    <li><%= owner.name %></li>
+    <li><%= owner.phone %></li>
+    <% end %>
+  </ul>
+  <% else %>
+  <p>
+    This pet has no owner
+  </p>
+  <% end %>
+
+
+<h3><a class="btn btn-danger" href="/pet/<%= @pet.id %>/new">Adopt this pet</a></h3>
+
+<h3><a href="/pets">Back Home</a></h3>

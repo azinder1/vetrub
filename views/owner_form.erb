@@ -1,0 +1,10 @@
+<h3>Adopt this pet!  Just add in your owner info:</h3>
+<form class="owner_form" action="/pet/<%=@pet.id%>/owner/new" method="post">
+  <label for="name">Adopters Name:</label>
+  <input type="text" name="name" id="name">
+  <label for="phone">Contact Number:</label>
+  <input type="number" name="number" id="number">
+  <button type="submit">Submit</button>
+</form>
+
+<h3><a href="/pets">Back Pets</a></h3>

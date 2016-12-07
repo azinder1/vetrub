@@ -1,0 +1,20 @@
+<h1>Adopt a pet</h1>
+
+<% if @pets.any?() %>
+<h3>We have the following pets for adoption:</h3>
+
+    <% @pets.each() do |pet| %>
+    <h4><a href="/pet/<%= pet.id %>"> <%= pet.pet_name %></a></h4>
+    <ul>
+    <li>Animal: <%= pet.animal %></li>
+    <li>Age: <%= pet.age %></li>
+  </ul>
+  <br>
+    <% end %>
+  <% else %>
+  <p>
+    We have no pets.
+  </p>
+  <% end %>
+
+<h3><a href="/">Back Home</a></h3>
